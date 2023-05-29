@@ -1,4 +1,8 @@
 Build
+META.*
 MYMETA.*
 _build/
 blib/
+CGI-Upload-*
+Makefile.PL
+README
