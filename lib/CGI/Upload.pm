@@ -15,7 +15,7 @@ require Exporter;
 @ISA = qw/ Exporter /;
 @EXPORT_OK = qw/ file_handle file_name file_type mime_magic mime_type query /;
 
-$VERSION = '1.11';
+$VERSION = '1.12';
 
 
 sub AUTOLOAD {

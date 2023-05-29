@@ -68,6 +68,8 @@ Revision history for Perl extension CGI::Upload
     - Even if it worked with Perls older than < 5.6 , from now on it surely won't
 
 
-1.12
+1.12 2023.05.29
     - Force scalar context of CGI::param to avoid possible vulnerability.
+    - Moved to GitHub
+    - Switch to use MANIFEST.SKIP
 
