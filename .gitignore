@@ -6,3 +6,5 @@ blib/
 CGI-Upload-*
 Makefile.PL
 README
+MANIFEST
+*.bak
