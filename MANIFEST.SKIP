@@ -1,0 +1,65 @@
+# Avoid version control files.
+\bRCS\b
+\bCVS\b
+,v$
+\B\.svn\b
+\B\.git\b
+\B\.cvsignore$
+
+# Avoid Makemaker generated and utility files.
+\bMakefile$
+\bblib
+\bMakeMaker-\d
+\bpm_to_blib$
+\bblibdirs$
+^MANIFEST\.SKIP$
+MYMETA\.(?:yml|yaml|json)$
+
+
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\bBuild.bat$
+\b_build
+
+# Avoid Devel::Cover generated files
+\bcover_db
+
+# Avoid temp and backup files.
+~$
+\.tmp$
+\.old$
+\.bak$
+\#$
+\.#
+\.rej$
+
+# Avoid OS-specific files/dirs
+#   Mac OSX metadata
+\B\.DS_Store
+#   Mac OSX SMB mount metadata files
+\B\._
+# Avoid archives of this distribution
+\bCGI-Upload-[\d\.\_]+
+
+\bsessions
+.gitignore
+\bdb\b
+\blog\b
+^logs\b
+^polls\b
+SETUP.bat
+
+# copied to the share/ directory
+^public\b
+^schema\b
+^views\b
+^environments\b
+^bin\n
+^config.yml
+
+
+# need to include the share directory as well as apparently
+# Module::Install is only installing stuff listed in the MANIFEST file.
+# \bshare\b
+
+.github/*

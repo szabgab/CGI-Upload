@@ -8,5 +8,6 @@
     perl Build.PL
     perl Build
     perl Build test
+    perl Build manifest
     perl Build dist
 
