@@ -73,3 +73,6 @@ Revision history for Perl extension CGI::Upload
     - Moved to GitHub
     - Switch to use MANIFEST.SKIP
 
+1.13 2023.05.29
+    - Add link to the git repository and to the GitHub issues.
+
