@@ -8,6 +8,7 @@ my $build = Module::Build->new
 	create_makefile_pl  => 'traditional',
 	create_readme       => 1,
 	requires            => {
+		'perl'                  => 5.006,
 		'CGI'                   => 2.47,
 		'File::MMagic'          => 1.16,
 		'HTTP::BrowserDetect'   => 0.97,
