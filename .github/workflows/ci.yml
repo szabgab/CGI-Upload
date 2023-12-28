@@ -44,7 +44,7 @@ jobs:
         cpanm --notest Test::Pod::Coverage
         cpanm --notest Test::Pod
 
-     - name: Show Errors on Windows
+    - name: Show Errors on Windows
       if:  ${{ failure() && startsWith( matrix.runner, 'windows-')}}
       run: |
          ls -l C:/Users/
