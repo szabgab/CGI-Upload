@@ -63,3 +63,4 @@ SETUP.bat
 # \bshare\b
 
 .github/*
+\.swp$
