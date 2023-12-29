@@ -3,6 +3,8 @@ use strict;
 use warnings;
 
 use Test::More;
+plan skip_all => 'AUTHOR_TESTING=1 is required' if not $ENV{AUTHOR_TESTING};
+
 eval {
     require Test::Pod;
     import Test::Pod;
