@@ -1,5 +1,5 @@
 package CGI::Upload;
-use 5.006;
+use 5.010;
 use strict;
 use warnings;
 
@@ -8,15 +8,12 @@ use File::Basename;
 use File::MMagic;
 use HTTP::BrowserDetect;
 use IO::File;
+use base "Exporter";
 
-use vars qw/ $AUTOLOAD $VERSION @ISA @EXPORT_OK /;
+our $AUTOLOAD;
+our @EXPORT_OK = qw/ file_handle file_name file_type mime_magic mime_type query /;
 
-require Exporter;
-
-@ISA = qw/ Exporter /;
-@EXPORT_OK = qw/ file_handle file_name file_type mime_magic mime_type query /;
-
-$VERSION = '1.15';
+our $VERSION = '1.15';
 
 
 sub AUTOLOAD {
