@@ -1,4 +1,5 @@
 package CGI::Upload;
+use 5.006;
 use strict;
 use warnings;
 
